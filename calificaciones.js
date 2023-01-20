@@ -1,13 +1,12 @@
-let nums = [23,45,75]
-for(i = 0; i>nums.length; i++){
+let ratings = [23,45,75,80]
+for(let i = 0; i<ratings.length; i++){
 
-    console.log(nums[i]);
-
-if(nums>70||nums>70)
+        if(ratings[i]>=70)
     {
-    console.log("reprobo")
+    console.log(ratings[i]+"aprueba")
     }
-else{
-    console.log("aprobo")
-}
+        else {
+         console.log(ratings[i]+"reprueba")
+    }
+
 }
